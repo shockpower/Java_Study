@@ -11,5 +11,6 @@ class Ex4_3 {
 		} else { // input!=0인 경우
 			System.out.println("입력하신 숫자는 0이 아닙니다.");
 		}
+		System.out.println(input);
 	} // main의 끝
 }
