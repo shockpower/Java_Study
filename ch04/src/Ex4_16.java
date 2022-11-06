@@ -3,9 +3,10 @@ class Ex4_16 {
 		int sum = 0;
 		int i   = 0;
 
-		while(true) {
+		//for(;;) {  //무한반복문  for(;;){}
+		while(true) {  //무한반복문  for(;;){}
 			if(sum > 100)
-				break;
+				break;  // 반복문을 벗어난다.
 			++i;
 			sum += i;
 		} // end of while

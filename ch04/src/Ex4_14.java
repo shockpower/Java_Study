@@ -11,7 +11,7 @@ class Ex4_14 {
 
 		while(num!=0) {    
 			// num을 10으로 나눈 나머지를 sum에 더함
-			sum += num%10; 	// sum = sum + num%10;
+			sum += num%10; 	// sum = sum + num%10; 10으로 나눈 나머지 마지막 자리를 얻는다.
 			System.out.printf("sum=%3d num=%d%n", sum, num);
 
 			num /= 10;   // num = num / 10;  num을 10으로 나눈 값을 다시 num에 저장

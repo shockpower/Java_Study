@@ -7,7 +7,7 @@ class Ex4_18 {
 
 		Scanner scanner = new Scanner(System.in);
 
-		while(true) {
+		while(true) {  //무한 반복문 
 			System.out.println("(1) square");
 			System.out.println("(2) square root");
 			System.out.println("(3) log");
@@ -21,7 +21,7 @@ class Ex4_18 {
 				break;
 			} else if (!(1 <= menu && menu <= 3)) {
 				System.out.println("메뉴를 잘못 선택하셨습니다.(종료는 0)");
-				continue;		
+				continue;	// 없어도 상관없음 	
 			}
 			
 			System.out.println("선택하신 메뉴는 "+ menu +"번입니다.");

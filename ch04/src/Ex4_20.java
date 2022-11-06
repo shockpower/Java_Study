@@ -1,3 +1,4 @@
+import java.lang.invoke.MethodHandles.Lookup.ClassOption;
 import java.util.*;
 
 class Ex4_20 {
@@ -16,7 +17,7 @@ class Ex4_20 {
 			menu = Integer.parseInt(tmp);    // 입력받은 문자열(tmp)을 숫자로 변환
 
 			if(menu==0) {  
-				System.out.println("프로그램을 종료합니다.");
+				//System.out.println("프로그램을 종료합니다.");
 				break;
 			} else if (!(1<= menu && menu <= 3)) {
 				System.out.println("메뉴를 잘못 선택하셨습니다.(종료는 0)");
@@ -45,7 +46,9 @@ class Ex4_20 {
 						System.out.println("result="+ Math.log(num));  
 						break;
 				} 
-			} // for(;;)
+			} // for(;;) 무한루프
 		} // while의 끝
+		System.out.println("프로그램이 종료되었습니다.");		
+		
 	} // main의 끝
 }

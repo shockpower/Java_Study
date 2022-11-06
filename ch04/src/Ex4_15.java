@@ -12,8 +12,10 @@ class Ex4_15 {
 			input = scanner.nextInt();
 
 			if(input > answer) {
+				System.out.println("랜덤값= " + answer);	
 				System.out.println("더 작은 수로 다시 시도해보세요.");	
 			} else if(input < answer) {
+				System.out.println("랜덤값= " + answer);
 				System.out.println("더 큰 수로 다시 시도해보세요.");			
 			}
 		} while(input!=answer);
