@@ -1,17 +1,18 @@
 class Ex5_9 {
 	public static void main(String[] args) {
-		 int[][] score = {
-							  { 100, 100, 100}
-							, { 20, 20, 20}
-							, { 30, 30, 30}
-							, { 40, 40, 40}
-							, { 50, 50, 50}
-						};
+		int[][] score = {
+				{ 100, 100, 100}
+				, { 20, 20, 20}
+				, { 30, 30, 30}
+				, { 40, 40, 40}
+				, { 50, 50, 50}
+				, { 10, 11, 12}
+		};
 		// °ú¸ñº° ÃÑÁ¡
 		int korTotal = 0, engTotal = 0, mathTotal = 0;
 
-	    System.out.println("¹øÈ£  ±¹¾î  ¿µ¾î  ¼öÇÐ  ÃÑÁ¡  Æò±Õ ");
-	    System.out.println("=============================");
+		System.out.println(" ¹øÈ£  ±¹¾î   ¿µ¾î   ¼öÇÐ   ÃÑÁ¡   Æò±Õ ");
+		System.out.println("=============================");
 
 		for(int i=0;i < score.length;i++) {
 			int  sum = 0;      // °³ÀÎº° ÃÑÁ¡
@@ -32,6 +33,6 @@ class Ex5_9 {
 		}
 
 		System.out.println("=============================");
-     	System.out.printf("ÃÑÁ¡:%3d %4d %4d%n", korTotal, engTotal, mathTotal);
+		System.out.printf("ÃÑÁ¡:  %3d %4d %4d%n", korTotal, engTotal, mathTotal);
 	}
 }

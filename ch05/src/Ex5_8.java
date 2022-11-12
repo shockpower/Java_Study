@@ -7,6 +7,9 @@ class Ex5_8 {
 				, { 40, 40, 40 }
 		};
 		int sum = 0;
+		
+		System.out.println(score.length);  // ¹è¿­ °¹¼ö 
+		System.out.printf("¹è¿­=%d%n ", score[1][0]);  // ¹è¿­ °¹¼ö 
 
 		for (int i = 0; i < score.length; i++) {
 			for (int j = 0; j < score[i].length; j++) {
