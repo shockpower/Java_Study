@@ -10,6 +10,11 @@ class Car {
 		gearType = g;
 		door = d;
 	}
+	
+	int test(int a){
+		int result = a;
+		return result;
+	}
 }
 
 class Ex6_12 {
@@ -23,5 +28,6 @@ class Ex6_12 {
 
 		System.out.println("c1ÀÇ color=" + c1.color + ", gearType=" + c1.gearType+ ", door="+c1.door);
 		System.out.println("c2ÀÇ color=" + c2.color + ", gearType=" + c2.gearType+ ", door="+c2.door);
+		System.out.println(c1.test(12));
 	}
 }

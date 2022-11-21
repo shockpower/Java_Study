@@ -19,3 +19,4 @@ class Ex6_14 {
 		Ex6_14 bt2 = new Ex6_14();
 	}
 }
+

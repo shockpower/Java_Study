@@ -21,5 +21,4 @@ public class TrycatchStudy {
 		
 		System.out.println("프로그램이 끝났어요.");
 	}
-
 }
