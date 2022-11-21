@@ -16,3 +16,4 @@ class Child extends Parent {
 		System.out.println("super.x="+ super.x);
 	}
 }
+
