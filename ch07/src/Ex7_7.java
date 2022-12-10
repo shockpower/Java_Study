@@ -11,8 +11,10 @@ class Ex7_7 {
 		fe2.water();
 		
 		System.out.println(car.door = 11);
+		fe.drive();
 	}
 }
+
 
 class Car {
 	String color;
@@ -26,6 +28,8 @@ class Car {
 		System.out.println("stop!!!");	
 	}
 }
+
+
 
 class FireEngine extends Car {	// 소방차
 	void water() {	// 물을 뿌리는 기능
