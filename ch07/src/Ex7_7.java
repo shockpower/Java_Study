@@ -9,6 +9,8 @@ class Ex7_7 {
 //		car.water();
 		fe2 = (FireEngine)car; // 자손타입 ← 조상타입. 형변환 생략 불가
 		fe2.water();
+		
+		System.out.println(car.door = 11);
 	}
 }
 
@@ -30,3 +32,4 @@ class FireEngine extends Car {	// 소방차
 		System.out.println("water!!!");
 	}
 }
+

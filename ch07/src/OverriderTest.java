@@ -1,4 +1,3 @@
-
 class MyPoint3 extends Object{
 	int x;
 	int y;
@@ -25,8 +24,6 @@ class MyPoint3 extends Object{
 //	}
 //}
 
-
-
 public class OverriderTest {
 
 	public static void main(String[] args) {
@@ -36,7 +33,7 @@ public class OverriderTest {
 		//		p.x = 3;
 		//		p.y = 5;
 		//		p.z = 7;
-		//
+		
 		//		System.out.println(p.getLocation());
 		
 		MyPoint3 p = new MyPoint3(1,3);
@@ -47,7 +44,5 @@ public class OverriderTest {
 //		System.out.println(p.toString());	
 //		System.out.println(p.x);
 //		System.out.println(p.y);
-
 	}
-
 }
